@@ -234,13 +234,12 @@ class GeminiProvider(AIProvider):
             DropdownSetting(
                 name="model_name",
                 display_name="Model",
-                default_value="gemini-2.0-flash",
+                default_value="gemini-2.5-flash",
                 description="Select Gemini model to use",
                 options=[
-                    ("Gemini 2.0 Flash Lite (intelligent | very fast | 30 uses/min)", "gemini-2.0-flash-lite-preview-02-05"),
-                    ("Gemini 2.0 Flash (very intelligent | fast | 15 uses/min)", "gemini-2.0-flash"),
-                    ("Gemini 2.0 Flash Thinking (most intelligent | slow | 10 uses/min)", "gemini-2.0-flash-thinking-exp-01-21"),
-                    ("Gemini 2.0 Pro (most intelligent | slow | 2 uses/min)", "gemini-2.0-pro-exp-02-05"),
+                    ("Gemini 2.5 Pro (Enhanced thinking and reasoning)", "gemini-2.5-pro"),
+                    ("Gemini 2.5 Flash (Adaptive thinking, cost efficiency)", "gemini-2.5-flash"),
+                    ("Gemini 2.5 Flash-Lite (Most cost-efficient)", "gemini-2.5-flash-lite"),
                 ]
             )
         ]
