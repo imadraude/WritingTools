@@ -78,7 +78,7 @@ Aside from being the only Windows/Linux program like Apple's Writing Tools, and 
 ## ✅ **1 Minute Installation**
 
 ### **🪟 Windows**:
-1. Go to the [Releases](https://github.com/theJayTea/WritingTools/releases) page and download the latest `Writing.Tools.zip` file.
+
 2. Extract it to your desired location (recommended: `Documents` or `App Data/Local`), run `Writing Tools.exe`, and enjoy! :D
 
 *Note: Writing Tools is a portable app. If you extract it into a protected folder (e.g., Program Files), you must run it as administrator at least on first launch so it can create/edit its config files (in the same folder as its exe).*
@@ -96,7 +96,7 @@ Writing Tools works well on x11. On Wayland, there are a few caveats:
 The macOS version is a **native Swift port**, developed by [Arya Mirsepasi](https://github.com/Aryamirsepasi). View the [README inside the macOS folder](https://github.com/theJayTea/WritingTools/tree/main/macOS) to learn more.
 
 To install it:
-1. Go to the [Releases](https://github.com/theJayTea/WritingTools/releases) page and download the latest macOS `.dmg` file.
+
 2. Open the `.dmg` file, also open a Finder Window, and drag the `writing-tools.app` into the Applications folder. That's it!
 
 **Note:** macOS 14 or later is required due to accessibility API requirements.

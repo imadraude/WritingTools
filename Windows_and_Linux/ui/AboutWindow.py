@@ -93,32 +93,6 @@ class AboutWindow(QtWidgets.QWidget):
 
         content_layout.addWidget(scroll_area)
 
-        # Add "Check for updates" button
-        update_button = QtWidgets.QPushButton('Check for updates')
-        update_button.setStyleSheet("""
-            QPushButton {
-                background-color: #4CAF50;
-                color: white;
-                padding: 10px;
-                font-size: 16px;
-                border: none;
-                border-radius: 5px;
-            }
-            QPushButton:hover {
-                background-color: #45a049;
-            }
-        """)
-        update_button.clicked.connect(self.check_for_updates)
-        content_layout.addWidget(update_button)
+        
 
-    def check_for_updates(self):
-        """
-        Open the GitHub releases page to check for updates.
-        """
-        webbrowser.open("https://github.com/theJayTea/WritingTools/releases")
-
-    def original_app(self):
-        """
-        Open the original app GitHub page.
-        """
-        webbrowser.open("https://github.com/TheJayTea/WritingTools")
+    

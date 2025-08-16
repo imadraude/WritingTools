@@ -21,7 +21,6 @@ import ui.OnboardingWindow
 import ui.ResponseWindow
 import ui.SettingsWindow
 from aiprovider import GeminiProvider, OllamaProvider, OpenAICompatibleProvider
-from update_checker import UpdateChecker
 
 _ = gettext.gettext
 
@@ -96,9 +95,7 @@ class WritingToolApp(QtWidgets.QApplication):
                 lang = None
             self.change_language(lang)
 
-            # Initialize update checker
-            self.update_checker = UpdateChecker(self)
-            self.update_checker.check_updates_async()
+            # Update checker has been removed
 
         self.recent_triggers = []  # Track recent hotkey triggers
         self.TRIGGER_WINDOW = 1.5  # Time window in seconds
